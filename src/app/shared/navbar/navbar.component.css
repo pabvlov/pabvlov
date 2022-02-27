@@ -1,0 +1,15 @@
+.navigation {
+    width: 100%;
+    min-height: 5rem;
+    padding: 20px;
+}
+
+a.active {
+    background-color: #5700c9 !important;
+    color: white !important;
+}
+
+a.text-sm-center {
+    color: white;
+}
+

@@ -1,0 +1,24 @@
+p.lead, h2 {
+    color: white;
+}
+
+
+#quienchuchasoy {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+div.center {
+    text-align: center;
+}
+
+div.justify {
+    text-align: justify;
+}
+
+#imagen {
+    clip-path: polygon(0 8%, 100% 0%, 100% 91%, 0% 100%);
+    height: 30rem;
+    background-image: url(../../../assets/img/Screenshot_1.webp);
+    background-attachment: fixed;
+}
