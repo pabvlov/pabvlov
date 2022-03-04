@@ -4,7 +4,7 @@ body {
  background-color: #36393F;
 }
 
-button {
+a {
   border-radius: 30px;
   text-align: center;
   background: linear-gradient(-45deg, #6E41E2, #d918eb, #3273ff, #8120a7);

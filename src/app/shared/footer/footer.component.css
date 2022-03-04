@@ -5,3 +5,8 @@
 footer {
     background-color: #36393F;
 }
+
+a {
+    padding: 10px 20px;
+    min-width: 30px;
+}

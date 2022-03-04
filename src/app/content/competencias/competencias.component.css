@@ -11,3 +11,27 @@ h2, p.lead {
     padding-bottom: 3rem;
 }
 
+div.progress-bar {
+    background: linear-gradient(-45deg, #6E41E2, #d918eb, #3273ff, #8120a7);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+}
+
+  
+@keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
