@@ -13,6 +13,16 @@ a {
   color: white;
 }
 
+button {
+  border-radius: 30px;
+  text-align: center;
+  background: linear-gradient(-45deg, #6E41E2, #d918eb, #3273ff, #8120a7);
+	animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  color: white;
+  border: none !important;
+}
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
