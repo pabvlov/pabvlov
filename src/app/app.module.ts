@@ -9,6 +9,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { QuienchuchasoyComponent } from './content/quienchuchasoy/quienchuchasoy.component';
 import { TrabajosComponent } from './content/trabajos/trabajos.component';
 import { CompetenciasComponent } from './content/competencias/competencias.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,9 +23,11 @@ import { CompetenciasComponent } from './content/competencias/competencias.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

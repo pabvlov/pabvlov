@@ -17,9 +17,8 @@ export class QuienchuchasoyComponent implements OnInit {
   anios = this.fechaActual.diff(this.fechaNacimiento, 'years')
 
   ngOnInit(): void {
-    console.log('holaa');
-    
-    
+
+
   }
 
 }

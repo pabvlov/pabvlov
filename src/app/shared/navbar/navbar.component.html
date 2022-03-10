@@ -1,22 +1,25 @@
 <section class="navigation">
+  <div class="container">
     <nav class="nav nav-pills flex-column flex-sm-row">
-        <a  class="" 
-            aria-current="page" 
-            href="#" 
-            (click)="navbar('inicio')"
-            [className]="lugar === 'inicio' ? 'flex-sm-fill text-sm-center nav-link active' : 'flex-sm-fill text-sm-center nav-link'"
-        >Inicio</a>
-        <a  class="flex-sm-fill text-sm-center nav-link" 
-            href="#quienchuchasoy" (click)="navbar('quienchuchasoy')"
-            [className]="lugar === 'quienchuchasoy' ? 'flex-sm-fill text-sm-center nav-link active' : 'flex-sm-fill text-sm-center nav-link'"
-        >Acerca de mí</a>
-        <a  class="flex-sm-fill text-sm-center nav-link" 
-            href="#trabajos" (click)="navbar('trabajos')"
-            [className]="lugar === 'trabajos' ? 'flex-sm-fill text-sm-center nav-link active' : 'flex-sm-fill text-sm-center nav-link'"
-        >Trabajos</a>
-        <a  class="flex-sm-fill text-sm-center nav-link" 
-            href="#competencias" (click)="navbar('competencias')"
-            [className]="lugar === 'competencias' ? 'flex-sm-fill text-sm-center nav-link active' : 'flex-sm-fill text-sm-center nav-link'"
-        >Competencias</a>
-      </nav>
+      <a  class=""
+          aria-current="page"
+          href="#"
+          (click)="navbar('inicio')"
+          [className]="lugar === 'inicio' ? 'flex-sm-fill text-sm-center nav-link active' : 'flex-sm-fill text-sm-center nav-link'"
+      >Inicio</a>
+      <a  class="flex-sm-fill text-sm-center nav-link"
+          href="#quienchuchasoy" (click)="navbar('quienchuchasoy')"
+          [className]="lugar === 'quienchuchasoy' ? 'flex-sm-fill text-sm-center nav-link active' : 'flex-sm-fill text-sm-center nav-link'"
+      >Acerca de mí</a>
+      <a  class="flex-sm-fill text-sm-center nav-link"
+          href="#trabajos" (click)="navbar('trabajos')"
+          [className]="lugar === 'trabajos' ? 'flex-sm-fill text-sm-center nav-link active' : 'flex-sm-fill text-sm-center nav-link'"
+      >Trabajos</a>
+      <a  class="flex-sm-fill text-sm-center nav-link"
+          href="#competencias" (click)="navbar('competencias')"
+          [className]="lugar === 'competencias' ? 'flex-sm-fill text-sm-center nav-link active' : 'flex-sm-fill text-sm-center nav-link'"
+      >Competencias</a>
+    </nav>
+  </div>
+
 </section>

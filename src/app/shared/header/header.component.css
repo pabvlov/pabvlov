@@ -11,10 +11,23 @@
     position: relative;
 }
 
+
 .img {
+
   width: 200px;
   height: 200px;
-  clip-path: polygon(50% 8%, 100% 0, 92% 49%, 100% 100%, 0 100%, 8% 51%, 0 0);
+  overflow: hidden;
+  margin: 0 auto;
+}
+.img img {
+  clip-path: circle(50% at 50% 50%);
+  transition: .5s ease-in-out;
+  width: 100%;
+}
+
+
+.img:hover img{
+  transform: scale(2) translateY(30px);
 }
 
 #header:after {

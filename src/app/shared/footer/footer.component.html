@@ -6,45 +6,48 @@
         <!--Grid column-->
         <div class="col-lg-6 col-md-6 mb-6 mb-md-0">
           <h5 class="text-uppercase text-white">Contáctame</h5>
-  
-          <form>
+
+          <form [formGroup]="formFooter">
             <div class="mb-3">
-                <input  type="email" 
-                        class="form-control" 
-                        id="userMail" 
-                        aria-describedby="userMail"
-                        placeholder="Correo *"
+                <input  type="text"
+                        class="form-control"
+                        formControlName="nombre"
+                        id="nombre"
+                        aria-describedby="nombre"
+                        placeholder="Pablo Prieto"
                 >
-                <div id="userMail" class="form-text">Tu correo nunca será revelado a nadie.</div>
-            </div>
-            <div class="input-group mb-3">
-                <span class="input-group-text" id="telefono">+56 </span>
-                <input type="text" class="form-control" placeholder="9 7856 9972" aria-label="telefono" aria-describedby="telefono">
+                <div id="nombre" class="form-text" *ngIf="formFooter.valid">{{ formFooter.value.nombre | titlecase }}, tu mensaje será enviado a WhatsApp <i style="color: green;" class="fa-brands fa-whatsapp"></i></div>
+                <div class="error form-text" *ngIf="!formFooter.controls['nombre'].valid">
+                  <i class="fa-regular fa-circle-xmark" style="color: red; width: 30px;"></i>El nombre debe ser de al menos tres caracteres.
+                </div>
               </div>
             <div class="mb-3">
-                <textarea class="form-control" id="mensaje" rows="3" placeholder="Mensaje"></textarea>
+                <textarea class="form-control" id="mensaje" rows="3" placeholder="Mensaje" formControlName="mensaje"></textarea>
+                <div class="error form-text" *ngIf="!formFooter.controls['mensaje'].valid">
+                  <i class="fa-regular fa-circle-xmark" style="color: red; width: 30px;"></i>El mensaje debe tener entre uno y trescientos caracteres.
+                </div>
             </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="submit" class="btn btn-primary" [disabled]="!formFooter.valid" (click)="enviar()">Enviar</button>
           </form>
         </div>
         <!--Grid column-->
-  
+
         <!--Grid column-->
         <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
           <h5 class="text-uppercase mb-3 text-white">Links</h5>
-  
+
           <ul class="list-unstyled">
             <li class="mb-4">
-              <a href="#!" class="text-white">Whatsapp</a>
+              <a href="https://wa.me/+56978569972" class="text-white">Whatsapp</a>
             </li>
             <li class="mb-4">
-              <a href="#!" class="text-white">Instagram</a>
+              <a href="https://www.instagram.com/pabvlov" class="text-white">Instagram</a>
             </li>
             <li class="mb-4">
-              <a href="#!" class="text-white">Facebook</a>
+              <a href="https://www.facebook.com/pabloprietoc" class="text-white">Facebook</a>
             </li>
             <li class="mb-4">
-              <a href="#!" class="text-white">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/pabvlov" class="text-white">LinkedIn</a>
             </li>
           </ul>
         </div>
@@ -53,7 +56,7 @@
       <!--Grid row-->
     </div>
     <!-- Grid container -->
-  
+
     <!-- Copyright -->
     <div class="text-center p-3 text-white" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2022:
