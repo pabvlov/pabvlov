@@ -16,7 +16,7 @@
                         aria-describedby="nombre"
                         placeholder="Pablo Prieto"
                 >
-                <div id="nombre" class="form-text" *ngIf="formFooter.valid">{{ formFooter.value.nombre | titlecase }}, tu mensaje será enviado a WhatsApp <i style="color: green;" class="fa-brands fa-whatsapp"></i></div>
+                <div id="nombre" class="form-text" *ngIf="formFooter.controls['nombre'].valid">{{ formFooter.value.nombre | titlecase }}, tu mensaje será enviado a WhatsApp <i style="color: green;" class="fa-brands fa-whatsapp"></i></div>
                 <div class="error form-text" *ngIf="!formFooter.controls['nombre'].valid">
                   <i class="fa-regular fa-circle-xmark" style="color: red; width: 30px;"></i>El nombre debe ser de al menos tres caracteres.
                 </div>
