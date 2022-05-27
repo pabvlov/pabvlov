@@ -6,7 +6,7 @@
     animation: gradient 15s ease infinite;
     background-size: 400% 400%;
     background-repeat: no-repeat;
-    background-size: 200% 200%;
+    background-size: cover 400%;
     background-position: center;
     background-attachment: fixed;
     position: relative;
