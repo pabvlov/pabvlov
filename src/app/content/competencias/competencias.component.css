@@ -35,3 +35,15 @@ a {
     color: white;
     text-decoration: none;
 }
+
+.imgredir {
+    padding: 0px;
+    color: white;
+    text-decoration: none;
+    object-fit: cover;
+    
+}
+
+.maxh100 {
+    max-height: 100px;
+}
