@@ -41,9 +41,13 @@ a {
     color: white;
     text-decoration: none;
     object-fit: cover;
-    
+    margin: 10px;
 }
 
 .maxh100 {
     max-height: 100px;
+}
+
+.col-6 {
+    margin-top: 20px;
 }
