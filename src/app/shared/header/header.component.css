@@ -2,7 +2,7 @@
     width: 100%;
     height: 40rem;
     background: linear-gradient(-45deg, #6E41E2, #d918eb, #3273ff, #8120a7);
-    background: url(../../../assets/img/IMG_4332.jpg);
+    /* background: url(../../../assets/img/IMG_4332.jpg); */
     animation: gradient 15s ease infinite;
     background-size: 400% 400%;
     background-repeat: no-repeat;
