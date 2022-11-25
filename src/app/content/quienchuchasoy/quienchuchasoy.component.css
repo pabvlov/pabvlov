@@ -12,6 +12,7 @@ p.lead, h2 {
 #quienchuchasoy {
     padding-top: 3rem;
     padding-bottom: 3rem;
+    
 }
 
 div.center {
@@ -32,4 +33,21 @@ div.justify {
 strong {
     font-weight: 500;
     font-style: italic;
+}
+
+div.triangle {
+    background: linear-gradient(-45deg, #6E41E2, #d918eb, #3273ff, #8120a7);
+	animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 64%);
+    z-index: -1;
+    transition: 5s ease-out;
+    
+}
+
+#container {
+    position: relative;
 }

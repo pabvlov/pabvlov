@@ -17,6 +17,11 @@ div.progress-bar {
     background-size: 400% 400%;
 }
 
+div.progress-bar-green {
+    background: linear-gradient(-45deg, #008844, #5bffbb, #007928, #00a199);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+}
   
 @keyframes gradient {
       0% {

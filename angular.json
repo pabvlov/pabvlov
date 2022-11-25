@@ -104,5 +104,8 @@
       }
     }
   },
-  "defaultProject": "pabvlov"
+  "defaultProject": "pabvlov",
+  "cli": {
+    "analytics": "a0a6c5d9-3534-4950-9d65-6ec7af387d21"
+  }
 }

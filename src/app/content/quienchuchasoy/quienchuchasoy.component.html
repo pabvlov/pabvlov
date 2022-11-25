@@ -1,17 +1,23 @@
 <section id="quienchuchasoy">
-    <div class="container">
+    <div class="container" id="container" #container>
+        <div class="triangle"   [style.top]="posY + 'px'" 
+                                [style.left]="posX + 'px'" 
+                                [style.transform]="'rotate('+ rotation +'deg)'"
+                                [style.clip-path]="poligon"
+                                [style.height]="height + 'px'"
+                                [style.width]="height + 'px'"></div>
         <hr>
         <div class="center">
             <h3 class="text-white">¡Hola Mundo!</h3>
             <p class="lead">
-                
-                <strong>Fullstack Web Developer</strong> de <strong>{{ anios }} años</strong> con talento comprobable en Frontend, 
-                formando parte de equipos de desarrollo con metodología agile SCRUM. 
-                He participado en Bootcamps para Fullstacks usando tecnologías como <strong>ReactJS</strong> y <strong>NodeJS</strong>. 
-                Tengo un aprendizaje muy rápido cuando se trata de cualquier materia de <strong>Javascript</strong>, pues es mi lenguaje de programación favorito. 
-                La experiencia que he tenido me ha ayudado a mejorar varios aspectos que la mayoría de los programadores padecen a la hora de trabajar en equipo, 
-                a aprender mucho en poco tiempo, a tener mucha más <strong>confianza en mí mismo</strong> y en mis habilidades y además, 
-                aprender tecnologías más a fondo como <strong>AngularJS y GIT</strong>.
+
+                Hola! Tengo {{ anios }} años y soy <strong>desarrollador Fullstack</strong> pero considero que mi talento se centra principalmente en <strong>Frontend</strong> que es lo que más me apasiona. 
+                Sólo he participado en equipos de desarrollo con metodología SCRUM y también en pruebas de desarrollo para Fullstacks usando tecnologías
+                como ReactJS y NodeJS. Tengo un aprendizaje muy rápido cuando se trata de cualquier materia de Javascript, pues es mi lenguaje de 
+                programación favorito. 
+
+                La experiencia que he tenido me ha ayudado a aumentar la confianza en mí mismo y en mis habilidades y además, obviamente, aprender 
+                tecnologías más a fondo como AngularJS que es mi fuerte.
 
             </p>
         </div>

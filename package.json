@@ -11,6 +11,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~13.2.0",
+    "@angular/cli": "^15.0.1",
     "@angular/common": "~13.2.0",
     "@angular/compiler": "~13.2.0",
     "@angular/core": "~13.2.0",
@@ -20,6 +21,7 @@
     "@angular/router": "~13.2.0",
     "@fortawesome/angular-fontawesome": "^0.10.1",
     "animate.css": "^4.1.1",
+    "crypto": "^1.0.1",
     "font-awesome": "^4.7.0",
     "fontawesome": "^5.6.3",
     "moment": "^2.29.1",
@@ -28,8 +30,7 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~13.2.4",
-    "@angular/cli": "~13.2.4",
+    "@angular-devkit/build-angular": "^13.3.10",
     "@angular/compiler-cli": "~13.2.0",
     "@types/jasmine": "~3.10.0",
     "@types/node": "^12.11.1",
