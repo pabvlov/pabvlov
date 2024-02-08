@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
-import { QuienchuchasoyComponent } from './content/quienchuchasoy/quienchuchasoy.component';
+import { AboutmeComponent } from './content/quienchuchasoy/quienchuchasoy.component';
 import { TrabajosComponent } from './content/trabajos/trabajos.component';
 import { CompetenciasComponent } from './content/competencias/competencias.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -17,7 +17,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HeaderComponent,
     NavbarComponent,
     FooterComponent,
-    QuienchuchasoyComponent,
+    AboutmeComponent,
     TrabajosComponent,
     CompetenciasComponent
   ],

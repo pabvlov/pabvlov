@@ -4,11 +4,11 @@ import 'moment/locale/es'
 import { FooterComponent } from '../../shared/footer/footer.component';
 
 @Component({
-  selector: 'app-quienchuchasoy',
+  selector: 'app-aboutme',
   templateUrl: './quienchuchasoy.component.html',
   styleUrls: ['./quienchuchasoy.component.css']
 })
-export class QuienchuchasoyComponent implements OnInit, AfterViewInit {
+export class AboutmeComponent implements OnInit, AfterViewInit {
 
   @ViewChild('container') container!: ElementRef;
 
