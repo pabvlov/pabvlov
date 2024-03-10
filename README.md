@@ -16,12 +16,13 @@ Soy Desarrollador Web con 3 años de experiencia y amplio conocimiento en el des
 
 ### [Jumpitt](https://www.jumpitt.com/) - Julio 2022 a Julio 2023
 - **Cargo:** Desarrollador Fullstack
-- **Tecnologías:** ASP.NET, jQuery.
-- Desarrollo de un "Sistema de Banner" con sistema de carga masiva.
+- Buscador de Tickets para empresa Mexicana Origon / EDN Colombia
+- **Tecnologías:** .NET Core.
 
 ### [AMSOFT](https://www.amsoft.cl/) - Julio 2023 a Septiembre 2023
-- **Cargo:** (Mencionar tu cargo, por ejemplo, Desarrollador Backend)
-- **Tecnologías:** (Mencionar las tecnologías que utilizaste)
+- **Cargo:** Desarrollador de Páginas Web
+- Desarrollo de un "Sistema de Banner" con sistema de carga masiva para Zurich.
+- **Tecnologías:** ASP.NET, JQuery
 
 ### [IBM](https://www.ibm.com/) - Septiembre 2023 a la actualidad
 - **Cargo:** Desarrollador de Backend
