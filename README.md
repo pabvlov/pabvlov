@@ -37,36 +37,36 @@ Soy Desarrollador Web con 3 años de experiencia y amplio conocimiento en el des
 
 ## Habilidades
 Generales:
-- JavaScript
-- TypeScript
-- Python
-- .NET Core
-- PHP7
-- Git (GitHub, Azure)
-- AJAX
-- Scrum
+  - JavaScript
+  - TypeScript
+  - Python
+  - .NET Core
+  - PHP7
+  - Git (GitHub, Azure)
+  - AJAX
+  - Scrum
 Frontend:
-- HTML
-- CSS
-- jQuery
-- Bootstrap
+  - HTML
+  - CSS
+  - jQuery
+  - Bootstrap
 Frameworks Frontend:
-- Angular
-- ReactJS
+  - Angular
+  - ReactJS
 Backend:
-- PHP
-- API REST
-- Java
-- C#
-- Stored Procedures
-- MySQL
-- SQL Server
-- JWT
+  - PHP
+  - API REST
+  - Java
+  - C#
+  - Stored Procedures
+  - MySQL
+  - SQL Server
+  - JWT
 Frameworks Backend:
-- .NET Core
-- ASP .NET
-- Laravel
-- NodeJS
+  - .NET Core
+  - ASP .NET
+  - Laravel
+  - NodeJS
 
 ## Intereses
 Me apasiona:
