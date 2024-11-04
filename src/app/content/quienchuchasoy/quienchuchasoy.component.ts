@@ -25,6 +25,7 @@ export class AboutmeComponent implements OnInit, AfterViewInit {
 
   fechaNacimiento = moment([2000, 7, 7]);
   fechaActual = moment();
+  chip = 1;
   height = 0;
   width = 0;
   anios = this.fechaActual.diff(this.fechaNacimiento, 'years')
