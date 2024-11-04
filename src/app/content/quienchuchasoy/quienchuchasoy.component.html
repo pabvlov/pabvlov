@@ -1,25 +1,28 @@
 <section id="aboutme">
     <div class="container" id="container" #container>
-        <div class="triangle"   [style.top]="posY + 'px'" 
-                                [style.left]="posX + 'px'" 
-                                [style.transform]="'rotate('+ rotation +'deg)'"
-                                [style.clip-path]="poligon"
-                                [style.height]="height + 'px'"
-                                [style.width]="height + 'px'"></div>
+        <div class="triangle" [style.top]="posY + 'px'" [style.left]="posX + 'px'"
+            [style.transform]="'rotate('+ rotation +'deg)'" [style.clip-path]="poligon" [style.height]="height + 'px'"
+            [style.width]="width + 'px'"></div>
         <hr>
         <div class="center">
-            <h3 class="text-white">¡Hola Mundo!</h3>
-            <p class="lead">
+            <h3 class="text-white">Transformamos tus ideas o problemas en soluciones tecnológicas</h3>
+            <h4>Sin Wordpress!</h4>
+            <mat-chip-list aria-label="Dog selection" class="chips">
+                <mat-chip>
+                    📄
+                    Landing Pages
+                </mat-chip>
+                <mat-chip>
+                    🌐
+                    Páginas Web
+                </mat-chip>
+                <mat-chip>
+                    🚀
+                    Aplicaciones Web
+                </mat-chip>
+            </mat-chip-list>
 
-                Hola! Tengo {{ anios }} años y soy <strong>desarrollador Fullstack</strong> pero considero que mi talento se centra principalmente en <strong>Frontend</strong> que es lo que más me apasiona. 
-                Sólo he participado en equipos de desarrollo con metodología SCRUM y también en pruebas de desarrollo para Fullstacks usando tecnologías
-                como ReactJS y NodeJS. Tengo un aprendizaje muy rápido cuando se trata de cualquier materia de Javascript, pues es mi lenguaje de 
-                programación favorito. 
-
-                La experiencia que he tenido me ha ayudado a aumentar la confianza en mí mismo y en mis habilidades y además, obviamente, aprender 
-                tecnologías más a fondo como AngularJS que es mi fuerte.
-
-            </p>
+            
         </div>
         <hr>
     </div>

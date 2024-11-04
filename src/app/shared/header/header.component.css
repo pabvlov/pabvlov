@@ -13,20 +13,6 @@
 }
 
 
-.img {
-
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  margin: 0 auto;
-}
-.img img {
-  clip-path: circle(50% at 50% 50%);
-  transition: .5s ease-in-out;
-  width: 100%;
-}
-
-
 .img:hover img{
   transform: scale(2) translateY(30px);
 }
@@ -61,7 +47,14 @@ h1.intro {
 
 
 .introduction {
-    padding-top: 11rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.container {
+  height: 100%;
 }
 
 .right {
@@ -72,4 +65,8 @@ h1.intro {
   padding-top: 20px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+code {
+  background-color: black;
 }

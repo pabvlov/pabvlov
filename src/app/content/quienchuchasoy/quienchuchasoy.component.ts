@@ -26,6 +26,7 @@ export class AboutmeComponent implements OnInit, AfterViewInit {
   fechaNacimiento = moment([2000, 7, 7]);
   fechaActual = moment();
   height = 0;
+  width = 0;
   anios = this.fechaActual.diff(this.fechaNacimiento, 'years')
   posX: number = 0;
   posY: number = 0;
@@ -39,6 +40,7 @@ export class AboutmeComponent implements OnInit, AfterViewInit {
 
   newPos() {
     this.height = this.getRandomInt(this.container.nativeElement.offsetWidth)
+    this.width = this.getRandomInt(this.container.nativeElement.offsetHeight)
     this.posX = this.getRandomInt(this.container.nativeElement.offsetWidth);
     this.posY = this.getRandomInt(this.container.nativeElement.offsetHeight);
     this.rotation = this.getRandomRotation();

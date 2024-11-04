@@ -1,11 +1,11 @@
-p.lead, h2 {
+ul.lead, h2 {
     color: white;
 }
 
 .lead {
     margin: auto;
     max-width: 700px;
-    text-align: justify;
+    text-align: left;
 }
 
 
@@ -37,17 +37,22 @@ strong {
 
 div.triangle {
     background: linear-gradient(-45deg, #6E41E2, #d918eb, #3273ff, #8120a7);
-	animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite;
     background-size: 400% 400%;
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    clip-path: polygon(50% 0%, 0% 100%, 100% 64%);
+    position: fixed;
     z-index: -1;
     transition: 5s ease-out;
-    
 }
 
 #container {
     position: relative;
+    max-width: 100%;
+}
+
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    background-color: transparent;
 }
