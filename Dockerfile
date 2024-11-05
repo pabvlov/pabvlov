@@ -22,7 +22,7 @@ FROM nginx:alpine
 COPY --from=builder /app/dist/*/browser/* /usr/share/nginx/html/
 
 # Exponer puerto
-EXPOSE 8080
+EXPOSE 80
 
 # Iniciar nginx
 CMD ["nginx", "-g", "daemon off;"]
