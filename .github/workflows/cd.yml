@@ -36,5 +36,4 @@ jobs:
           cd ./
           docker-compose pull
           docker-compose down
-          docker-compose rmi pabvlov/pabvlov
           docker-compose up -d
