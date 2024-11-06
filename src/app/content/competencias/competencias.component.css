@@ -1,5 +1,9 @@
-div.center {
-    text-align: center;
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 h2, p.lead {
@@ -21,6 +25,11 @@ div.progress-bar-green {
     background: linear-gradient(-45deg, #008844, #5bffbb, #007928, #00a199);
     animation: gradient 15s ease infinite;
     background-size: 400% 400%;
+}
+
+.progress {
+    margin: 0;
+    padding: 0;
 }
   
 @keyframes gradient {
@@ -47,15 +56,54 @@ a {
     text-decoration: none;
     object-fit: cover;
     margin: 10px;
-
+    background: transparent !important;
 }
 
 .maxh100 {
     height: 100px;
     max-width: 100px;
     object-fit: cover;
+    margin: 10px 0;
 }
 
 .col-3 {
     margin-top: 20px;
+}
+
+.fotoperfil {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin: 10px 0;
+}
+
+.center2 {
+    display: grid; 
+    place-items: center;
+}
+
+#why-us {
+    background-image: url('../../../assets/img/gif pagina.gif');
+    background-size: cover;
+}
+
+.image {
+    background-color: #000000d2;
+    padding: 20px;
+}
+
+h2.lead {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+p.lead {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 0;
 }

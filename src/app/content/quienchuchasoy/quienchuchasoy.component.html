@@ -1,7 +1,8 @@
 <section id="aboutme">
     <div id="imagen">
-        <div class="container" id="container" #container>
+        <div class="container" id="container" #container  [style]="innerWidth > 700 ? 'margin: 80px auto;':'margin: 0 auto;'">
             <div class="center">
+                {{ innerWidth }}
                 <h3 class="text-white">Transformamos tus ideas o problemas en soluciones tecnológicas</h3>
                 <mat-chip-list aria-label="Dog selection" class="chips">
                     <mat-chip class="chip" [disabled]="chip == 1">

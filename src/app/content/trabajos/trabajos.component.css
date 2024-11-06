@@ -31,3 +31,19 @@ h2 {
 div.content {
     padding: 150px 0;
 }
+
+.ok {
+    background-color: green;
+    transition: .3s ease;
+}
+
+.ok:hover {
+    background-color: #00ff00;
+    transform: scale(1.05);
+    transition: .3s ease;
+}
+
+.no {
+    background: red !important;
+    animation: none;
+}

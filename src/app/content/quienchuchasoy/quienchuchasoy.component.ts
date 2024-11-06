@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular/core';
 import * as moment from 'moment'
 import 'moment/locale/es'
 import { FooterComponent } from '../../shared/footer/footer.component';
@@ -8,9 +8,19 @@ import { FooterComponent } from '../../shared/footer/footer.component';
   templateUrl: './quienchuchasoy.component.html',
   styleUrls: ['./quienchuchasoy.component.css']
 })
-export class AboutmeComponent {
+export class AboutmeComponent implements OnInit{
 
   @ViewChild('container') container!: ElementRef;
+  innerWidth: any;
+  @HostListener('window:resize', ['$event'])
+  onResize(event: Event) {
+    this.innerWidth = window.innerWidth;
+  }
+
+  ngOnInit(): void {
+    this.innerWidth = window.innerWidth;
+  }
+
 
   constructor() { }
 

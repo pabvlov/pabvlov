@@ -19,6 +19,14 @@ div.center {
     text-align: center;
 }
 
+.center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
 div.justify {
     text-align: justify;
 }
@@ -54,24 +62,51 @@ div.triangle {
     padding: 50px;
     margin: 80px auto;
     clip-path: polygon(0 4%, 100% 0, 100% 96%, 0 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .chips {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
-    background-color: transparent;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 700px; /* para mantener consistencia con tus otros max-width */
 }
 
 .chip {
     padding: 0;
+    flex: 0 1 auto; /* permite que los chips se encogan si es necesario */
+}
+
+/* Para pantallas muy pequeñas */
+@media (max-width: 700px) {
+    .chips {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .chip {
+        width: 100%;
+        max-width: 300px;
+    }
 }
 
 .chip-button {
     width: 100%;
     height: 100%;
     padding: 0 1rem;
+    transition: .2s ease;
+}
+
+.chip-button:hover {
+    background-color: #5700c9;
+    color: white;
+    transform: scale(1.05);
+    transition: .2s ease;
 }
 
 .chip-description { 
@@ -80,4 +115,19 @@ div.triangle {
     margin: 30px auto;
     max-width: 700px;
     clip-path: polygon(0 4%, 100% 0, 100% 96%, 0 100%);
+}
+
+@media (max-width: 700px) {
+    .chip-description, #container, #imagen {
+        clip-path: none;
+    }
+
+    #imagen, #container {
+        min-height: 100vh;
+    }
+}
+
+/* ng deep */
+::ng-deep .mat-chip-list-wrapper {
+    justify-content: center;
 }
