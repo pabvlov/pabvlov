@@ -26,3 +26,16 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/pabvlov:latest
+
+      - name: Deploy to production
+        env:
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
+          SSH_KEY: ${{ secrets.SSH_KEY }}
+        working-directory: ./
+        run: |
+          ssh -o StrictHostKeyChecking=no $SSH_USERNAME@$SSH_HOST '
+            docker-compose pull
+            docker-compose down
+            docker-compose up -d
+          '
