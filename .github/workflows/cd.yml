@@ -36,6 +36,7 @@ jobs:
         SSH_HOST: ${{ secrets.SSH_HOST }}
         SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
         SSH_KEY: ${{ secrets.SSH_KEY }}
+      working-directory: ./
       run: |
         ssh -o StrictHostKeyChecking=no $SSH_USERNAME@$SSH_HOST '
           docker-compose pull
