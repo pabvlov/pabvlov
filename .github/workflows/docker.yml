@@ -34,8 +34,10 @@ jobs:
           SSH_KEY: ${{ secrets.SSH_KEY }}
         working-directory: ./
         run: |
-          ssh -o StrictHostKeyChecking=no $SSH_USERNAME@$SSH_HOST '
-            docker-compose pull
-            docker-compose down
-            docker-compose up -d
-          '
+           echo "$SSH_KEY" > /tmp/deploy_key
+            chmod 600 /tmp/deploy_key
+            ssh -i /tmp/deploy_key -o StrictHostKeyChecking=no $SSH_USERNAME@$SSH_HOST '
+              docker-compose pull
+              docker-compose down
+              docker-compose up -d
+            '
