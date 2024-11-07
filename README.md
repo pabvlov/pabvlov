@@ -30,7 +30,8 @@ Soy Desarrollador Web con 3 años de experiencia y amplio conocimiento en el des
 - Desarrollo de microservicios para la empresa Vida Security.
 
 ## Proyectos Destacados
-- [Funeraria Cubillos] https://funerariacubillos.vercel.app/
+- [Funeraria Cubillos] https://funeralescubillosvina.cl
+- [Portafolio] https://pavlo.cl
 
 ## Educación
 - Analista Programador, INACAP
