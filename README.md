@@ -2,7 +2,7 @@
 
 
 # ¡Hola, soy # Pablo Prieto! 👋
-# Currently working at IBM
+# Currently looking for a job!
 
 ## Acerca de mí
 Soy Desarrollador Web con 3 años de experiencia y amplio conocimiento en el desarrollo de sitios web y aplicaciones. Actualizado en las últimas tendencias y mejores prácticas a través de cursos especializados y autodidacta constante. He tenido la oportunidad de explorar tanto el desarrollo Frontend como el Backend, y me apasiona trabajar en ambas áreas. Poseo habilidades sólidas tanto en la creación de interfaces atractivas y funcionales como en la implementación de lógica de servidor y bases de datos. Mi experiencia en ambos lados del desarrollo web me brinda una perspectiva integral y me permite ofrecer soluciones completas a los desafíos técnicos. Comprometido con el crecimiento profesional y contribuir al éxito de los proyectos.
@@ -24,7 +24,7 @@ Soy Desarrollador Web con 3 años de experiencia y amplio conocimiento en el des
 - Desarrollo de un "Sistema de Banner" con sistema de carga masiva para Zurich.
 - **Tecnologías:** ASP.NET, JQuery
 
-### [IBM](https://www.ibm.com/) - Septiembre 2023 a la actualidad
+### [IBM](https://www.ibm.com/) - Septiembre 2023 a Febrero de 2025
 - **Cargo:** Desarrollador de Backend
 - **Tecnologías:** .NET Core, DDD (Domain-Driven Design).
 - Desarrollo de microservicios para la empresa Vida Security.
@@ -38,7 +38,7 @@ Soy Desarrollador Web con 3 años de experiencia y amplio conocimiento en el des
 - Udemy es mi mentor
 
 ## Habilidades
-Generales:
+## Generales:
   - JavaScript
   - TypeScript
   - Python
@@ -47,15 +47,19 @@ Generales:
   - Git (GitHub, Azure)
   - AJAX
   - Scrum
-Frontend:
+
+## Frontend:
   - HTML
   - CSS
   - jQuery
   - Bootstrap
-Frameworks Frontend:
+
+
+## Frameworks Frontend:
   - Angular
   - ReactJS
-Backend:
+
+## Backend:
   - PHP
   - API REST
   - Java
@@ -64,7 +68,7 @@ Backend:
   - MySQL
   - SQL Server
   - JWT
-Frameworks Backend:
+## Frameworks Backend:
   - .NET Core
   - ASP .NET
   - Laravel
