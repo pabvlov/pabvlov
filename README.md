@@ -32,6 +32,9 @@ Soy Desarrollador Web con 3 años de experiencia y amplio conocimiento en el des
 ## Proyectos Destacados
 - [Funeraria Cubillos] https://funeralescubillosvina.cl
 - [Portafolio] https://pavlo.cl
+- [Gran Paso]: https://granpasochile.cl/
+- [GP Inventory] https://inventory.granpasochile.cl/
+- [GP Expenses] https://expenses.granpasochile.cl/
 
 ## Educación
 - Analista Programador, INACAP
